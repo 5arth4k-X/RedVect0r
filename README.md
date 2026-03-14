@@ -81,7 +81,7 @@ sudo bash install.sh
 redvect0r <domain> <scan-flag> [nmap-options] [discovery-options] [output-options]
 ```
 
-```
+```diff
 ! <scan-flag> is required — all other flags are optional
 ```
 
@@ -175,7 +175,7 @@ output/
 
 **Both reports contain all sections in pipeline order:**
 
-```diff
+```
 + Subdomains          + Endpoints
 + DNS Records         + WAF Detection
 + Takeover            + Robots / Sitemap
