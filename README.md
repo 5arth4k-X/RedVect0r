@@ -27,7 +27,7 @@
 
 ## What is RedVect0r?
 
-RedVect0r is a complete **attack surface mapping framework** that chains together passive recon, active scanning, and vulnerability detection into a single automated pipeline. Point it at a domain and it maps everything — subdomains, ports, technologies, endpoints, misconfigurations, and risk scores — then saves a full report.
+RedVect0r is a complete **attack surface mapping framework** that chains together passive recon, active scanning, and vulnerability detection into a single automated pipeline. Point it at a domain and it maps everything subdomains, ports, technologies, endpoints, misconfigurations, and risk scores, then saves a full report.
 
 ```diff
 + Passive subdomain enumeration via subfinder
