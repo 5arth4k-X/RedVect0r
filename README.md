@@ -77,7 +77,7 @@ sudo bash install.sh
 
 ## Usage
 
-```
+```bash
 redvect0r <domain> <scan-flag> [nmap-options] [discovery-options] [output-options]
 ```
 
@@ -131,7 +131,7 @@ redvect0r <domain> <scan-flag> [nmap-options] [discovery-options] [output-option
 ### Help
 
 ```bash
-redvect0r -h
+redvect0r --help
 ```
 
 ---
@@ -148,10 +148,10 @@ redvect0r example.com --os --delay 0.5 --proxy http://127.0.0.1:8080
 # Service version detection with custom wordlist
 redvect0r example.com --version --wordlist /usr/share/wordlists/dirb/common.txt
 
-# Fast scan with screenshots
+# Fast scan with screenshots saved to custom folder
 redvect0r example.com --fast --screenshots output/screenshots
 
-# Full deep scan — all options, custom report location
+# Full deep scan — all options, reports saved to custom path
 redvect0r example.com --full --delay 1 --wordlist /path/to/list.txt --output /home/user/scans
 
 # Target specific ports only
@@ -236,6 +236,23 @@ Then use the flag:
 
 ```bash
 redvect0r example.com --fast --screenshots output/screenshots
+```
+
+---
+
+## Git Setup After Clone & Install
+
+```bash
+# Set your identity
+git config --global user.email "you@example.com"
+git config --global user.name "YourName"
+
+# Rename branch
+git branch -m main
+
+# Add remote and push
+git remote add origin https://github.com/5arth4k-X/RedVect0r.git
+git push -u origin main
 ```
 
 ---
