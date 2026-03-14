@@ -1,0 +1,4 @@
+python-nmap
+requests
+dnspython
+colorama
