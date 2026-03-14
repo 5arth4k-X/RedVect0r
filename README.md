@@ -29,7 +29,7 @@
 
 RedVect0r is a complete **attack surface mapping framework** that chains together passive recon, active scanning, and vulnerability detection into a single automated pipeline. Point it at a domain and it maps everything subdomains, ports, technologies, endpoints, misconfigurations, and risk scores, then saves a full report.
 
-
+```
 + Passive subdomain enumeration via subfinder
 + Full DNS record enumeration (A, AAAA, CNAME, MX, TXT, NS, SOA, SPF, DMARC)
 + Subdomain takeover detection across 27 known vulnerable services
@@ -44,7 +44,7 @@ RedVect0r is a complete **attack surface mapping framework** that chains togethe
 + Per-subdomain risk scoring with detailed findings
 + Optional screenshot capture powered by Playwright
 + JSON + TXT reports with graceful Ctrl+C partial save
-
+```
 
 ---
 
@@ -81,7 +81,7 @@ sudo bash install.sh
 redvect0r <domain> <scan-flag> [nmap-options] [discovery-options] [output-options]
 ```
 
-```diff
+```
 ! <scan-flag> is required — all other flags are optional
 ```
 
