@@ -238,22 +238,7 @@ Then use the flag:
 redvect0r example.com --fast --screenshots output/screenshots
 ```
 
----
 
-## Git Setup After Clone & Install
-
-```bash
-# Set your identity
-git config --global user.email "you@example.com"
-git config --global user.name "YourName"
-
-# Rename branch
-git branch -m main
-
-# Add remote and push
-git remote add origin https://github.com/5arth4k-X/RedVect0r.git
-git push -u origin main
-```
 
 ---
 
