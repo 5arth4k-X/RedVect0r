@@ -14,7 +14,7 @@ If you discover a security vulnerability in RedVect0r, please **do not open a pu
 
 Report it privately instead:
 
-**Email:** your@email.com  
+**Email:** sarthaksaha09051540@gmail.com  
 **Subject line:** `[RedVect0r] Security Vulnerability Report`
 
 Please include as much of the following as possible:
