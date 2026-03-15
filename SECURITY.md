@@ -28,7 +28,7 @@ You can expect an acknowledgement within **48 hours** and a resolution update wi
 
 > [!IMPORTANT]
 > Vulnerabilities reported publicly before a fix is available put all users at risk.
-> Responsible disclosure gives us the chance to patch first.
+> Responsible disclosure gives me the chance to patch first.
 
 ---
 
